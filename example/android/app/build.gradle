@@ -188,6 +188,17 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-webview')
+    implementation project(':react-native-view-shot')
+    implementation project(':react-native-video')
+    implementation project(':react-native-svg')
+    implementation project(':react-native-reanimated')
+    implementation project(':react-native-maps')
+    implementation project(':react-native-gesture-handler')
+    implementation project(':react-native-fs')
+    implementation project(':gl-react-native')
+    implementation project(':@react-native-community_slider')
+    implementation project(':@react-native-community_art')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
@@ -207,4 +218,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
     into 'libs'
 }
 
-apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+//apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

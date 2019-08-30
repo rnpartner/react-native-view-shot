@@ -28,6 +28,28 @@ target 'ViewShotExample' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'ReactNativeART', :path => '../node_modules/@react-native-community/art'
+
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+  pod 'RNGL', :path => '../node_modules/gl-react-native'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+  pod 'react-native-view-shot', :path => '../node_modules/react-native-view-shot'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'ViewShotExampleTests' do
     inherit! :search_paths
     # Pods for testing
